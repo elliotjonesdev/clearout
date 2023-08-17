@@ -16,7 +16,7 @@ Seller
 * To manage the for sale inventory easily
 
 Buyer
-* To have a challenging but seamless quiz experience
-* Interact with the website in an intuitive manner
-* To identify with the playful color and logo of the quiz
-* To easily operate QUICKFIRE QUIZ on all devices 
+* To see items listed from sellers in a simple format
+* To buy from members in the local community
+* To contact members in the local community about items
+* To have a positive user experience
