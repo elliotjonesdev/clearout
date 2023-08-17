@@ -10,7 +10,7 @@ The primary goal of CLEAROUT is to help the user quickly list their multiple ite
 
 #### User Goals 
 Seller
-* To list and sell multiple items quickly and easily
+* To list and sell multiple used or unwanted items quickly and easily
 * Interact with the application intuitively
 * To receive contact from potentil buyers through the app
 * To manage the for sale inventory easily
