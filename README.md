@@ -22,6 +22,7 @@ Buyer
 * To have a positive user experience
 
 ## Initial Wireframes
+Desktop View
   * The initial wireframes show the concept for the CLEAROUT application with clearly defined visual areas and intuitive navigation and centred information in relation to the desktop view. The mobile view contains a collapsible menu with hamburger that expands the main page navigation when clicked.
 
 <img width="1067" alt="Screenshot 2023-08-20 at 10 26 51" src="https://github.com/elliotjonesdev/clearout/assets/119816371/b90138f8-97e0-4d14-ba0a-35a2a570f980">
@@ -29,5 +30,8 @@ Buyer
 <img width="1062" alt="Screenshot 2023-08-20 at 10 28 35" src="https://github.com/elliotjonesdev/clearout/assets/119816371/99e2f24f-4666-4629-a134-eb828f048b54">
 
 <img width="1060" alt="Screenshot 2023-08-20 at 10 29 59" src="https://github.com/elliotjonesdev/clearout/assets/119816371/4e318e11-c7bc-4fe1-ba2f-b857b6dffc31">
+
+Mobile View
+
 
 
