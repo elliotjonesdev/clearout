@@ -32,6 +32,6 @@ Desktop View
 <img width="1060" alt="Screenshot 2023-08-20 at 10 29 59" src="https://github.com/elliotjonesdev/clearout/assets/119816371/4e318e11-c7bc-4fe1-ba2f-b857b6dffc31">
 
 Mobile View
-
+<img width="1063" alt="Screenshot 2023-08-20 at 10 45 54" src="https://github.com/elliotjonesdev/clearout/assets/119816371/ec319a10-7afd-4d83-8821-9a0d7e7f1e7c">
 
 
