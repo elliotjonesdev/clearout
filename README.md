@@ -28,4 +28,6 @@ Buyer
 
 <img width="1062" alt="Screenshot 2023-08-20 at 10 28 35" src="https://github.com/elliotjonesdev/clearout/assets/119816371/99e2f24f-4666-4629-a134-eb828f048b54">
 
+<img width="1060" alt="Screenshot 2023-08-20 at 10 29 59" src="https://github.com/elliotjonesdev/clearout/assets/119816371/4e318e11-c7bc-4fe1-ba2f-b857b6dffc31">
+
 
