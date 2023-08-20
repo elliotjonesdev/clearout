@@ -20,3 +20,9 @@ Buyer
 * To buy from members in the local community
 * To contact members in the local community about items
 * To have a positive user experience
+
+## Initial Wireframes
+  * The initial wireframes show the concept for the CLEAROUT application with clearly defined visual areas and intuitive navigation and centred information in relation to the desktop view. The mobile view contains a collapsible menu with hamburger that expands the main page navigation when clicked.
+
+
+
