@@ -1,30 +1,23 @@
 {% extends "base.html" %}
 {% block content %}
 
-
-    {% for item in item %}
-    {{ item.item_description }}<br>
-    {{ item.category_name }}<br>
-    {{ item.condition }}<br>
-    {{ item.is_sold }}<br>
-    {{ item.date_listed }}<br>
-    {{ item.item_price }}<br>
-
-{% endfor %}
-
-<ul class="collapsible">
-    <li>
-        <div class="collapsible-header white-text light-blue darken-4 text-shadow"><i class="fas fa-caret-down"></i>First</div>
-        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    <li>
-        <div class="collapsible-header white-text light-blue darken-4 text-shadow"><i class="fas fa-caret-down"></i>Second</div>
-        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    <li>
-        <div class="collapsible-header white-text light-blue darken-4 text-shadow"><i class="fas fa-caret-down"></i>Third</div>
-        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-</ul>
+    <ul class="collapsible">
+        {% for item in item %}
+        <li>
+            <div class="collapsible-header white-text light-blue darken-4 text-shadow">
+                <i class="fas fa-caret-down"></i>
+                <strong>{{ item.item_name }}</strong> : {{ item.date_listed }}
+                {% if item.is_sold == "on" %}
+                    <i class="fas fa-exclamation-circle light-blue-text text-lighten-2 tooltipped"
+                        data-position="right" data-tooltip="SOLD"></i>
+                {% endif %}
+            </div>
+            <div class="collapsible-body">
+                <strong>{{ item.category_name }}</strong>
+                <p>{{ item.item_description }}</p>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
 
 {% endblock %}
