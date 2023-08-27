@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
 
+<h3 class="light-blue-text text-darken-4 center-align">All Items</h3>
+
     <ul class="collapsible">
         {% for item in item %}
         <li>
@@ -15,6 +17,7 @@
             <div class="collapsible-body">
                 <strong>{{ item.category_name }}</strong>
                 <p>{{ item.item_description }}</p>
+                <p><em>by: {{ item.created_by }}</em></p>
             </div>
         </li>
         {% endfor %}

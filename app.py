@@ -98,10 +98,25 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/add_item")
+@app.route("/add_item", methods=["GET", "POST"])
 def add_item():
+    if request.method == "POST":
+        is_sold = "on" if request.form.get("is_sold") else "off"
+        item = {
+            "category_name": request.form.get("category_name"),
+            "item_name": request.form.get("item_name"),
+            "item_description": request.form.get("item_description"),
+            "is_sold": is_sold,
+            "date_listed": request.form.get("date_listed"),
+            "created_by": session["user"]
+        }
+        mongo.db.tasks.insert_one(item)
+        flash("Item Successfully Added")
+        return redirect(url_for("get_item"))
+
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("add_item.html", categories=categories)
+
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),

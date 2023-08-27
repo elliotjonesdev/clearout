@@ -4,7 +4,8 @@
     <h3 class="light-blue-text text-darken-4 center-align">Add Item</h3>
 
     <div class="row card-panel grey lighten-5">
-        <form class="col s12" method="POST" action="">
+        <form class="col s12" method="POST" action="{{ url_for('add_item') }}">
+            <!-- category selection --> 
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-folder-open prefix light-blue-text text-darken-4"></i>
@@ -18,6 +19,7 @@
                   </div>
 
             </div>
+            <!-- item name -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-user-circle prefix light-blue-text text-darken-4"></i>
@@ -26,6 +28,7 @@
                     <label for="item_name">Item Name</label>
                 </div>
             </div>
+            <!-- item description -->  
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-phone prefix light-blue-text text-darken-4"></i>
@@ -34,6 +37,7 @@
                     <label for="item_description">Item Description</label>
                 </div>
             </div>
+            <!-- date listed picker -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-calendar-alt prefix light-blue-text text-darken-4"></i>
@@ -42,6 +46,7 @@
                     <label for="date_listed">Date Listed</label>
                 </div>
             </div>
+            <!-- is sold toggle -->
             <div class="row">
 				<div class="input-field col s12">
 					<div class="switch">
@@ -54,6 +59,13 @@
 					</div>
 				</div>
 			</div>
+             <!-- submit button -->
+            <div class="row">
+                <div class="col s12 center-align">
+                    <button type="submit" class="btn-large light-blue darken-1 text-shadow">
+                        Add Task <i class="fas fa-plus-square right"></i>
+                    </button>
+            </div>
         </form>
     </div>
 
