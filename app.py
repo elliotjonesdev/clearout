@@ -138,6 +138,13 @@ def edit_item(item_id):
     return render_template("edit_item.html", item=item, categories=categories)
 
 
+@app.route("/delete_item/<item_id>")
+def delete_item(item_id):
+    mongo.db.tasks.delete_one({"_id": ObjectId(item_id)})
+    flash("Item Successfully Deleted")
+    return redirect(url_for("get_item"))
+
+
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
