@@ -120,7 +120,20 @@ def add_item():
 
 @app.route("/edit_item/<item_id>", methods=["GET", "POST"])
 def edit_item(item_id):
-    item = mongo.db.items.find_one({"_id": ObjectId(item_id)})
+    if request.method == "POST":
+        is_sold = "on" if request.form.get("is_sold") else "off"
+        submit = {
+            "category_name": request.form.get("category_name"),
+            "item_name": request.form.get("item_name"),
+            "item_description": request.form.get("item_description"),
+            "is_sold": is_sold,
+            "date_listed": request.form.get("date_listed"),
+            "created_by": session["user"]
+        }
+        mongo.db.tasks.update_one( {"_id": ObjectId(item_id)}, {"$set": submit})
+        flash("Item Successfully Updated")
+
+    item = mongo.db.tasks.find_one({"_id": ObjectId(item_id)})
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("edit_item.html", item=item, categories=categories)
 
