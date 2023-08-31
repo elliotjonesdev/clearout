@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
+<h5 class="light-green-text text-darken-1 center-align"><i>"Buy and sell in your local area - fast!"</i></h5>
+<h3 class="center-align">Items For Sale</h3>
 
-<h3 class="light-blue-text text-darken-4 center-align">All Items</h3>
 
 <div class="row card-panel grey lighten-5">
     <form action="{{ url_for('search') }}" method="post" class="col s12">
@@ -25,11 +26,11 @@
     <ul class="collapsible">
         {% for item in item %}
         <li>
-            <div class="collapsible-header white-text light-blue darken-4 text-shadow">
+            <div class="collapsible-header white-text 757575 grey darken-1 text-shadow">
                 <div class="col s3">
                     <i class="fas fa-caret-down"></i>
                     {% if session.user|lower == item.created_by|lower %}
-                        <a href="{{ url_for('delete_item', item_id=item._id) }}" class="btn-small green accent-4">Done</a>
+                        <a href="{{ url_for('delete_item', item_id=item._id) }}" class="btn-small green accent-4">Delete</a>
                         <a href="{{ url_for('edit_item', item_id=item._id) }}" class="btn-small light-blue lighten-1">Edit</a>
                     {% endif %}
                 </div>
