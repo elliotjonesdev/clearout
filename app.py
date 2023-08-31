@@ -24,6 +24,12 @@ def get_item():
     item = list(mongo.db.tasks.find())
     return render_template("item.html", item=item)
 
+@app.route("/search", methods=["GET", "POST"])
+def search():
+    query = request.form.get("query")
+    item = list(mongo.db.tasks.find({"$text": {"$search": query}}))
+    return render_template("item.html", item=item)
+
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
