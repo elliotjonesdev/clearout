@@ -112,8 +112,9 @@ def add_item():
             "category_name": request.form.get("category_name"),
             "item_name": request.form.get("item_name"),
             "item_description": request.form.get("item_description"),
-            "is_sold": is_sold,
-            "date_listed": request.form.get("date_listed"),
+            "item_delivery": request.form.get("item_delivery"),
+            "item_image": request.form.get("item_image"),
+            "item_location": request.form.get("item_location"),
             "created_by": session["user"]
         }
         mongo.db.tasks.insert_one(item)
@@ -132,8 +133,9 @@ def edit_item(item_id):
             "category_name": request.form.get("category_name"),
             "item_name": request.form.get("item_name"),
             "item_description": request.form.get("item_description"),
-            "is_sold": is_sold,
-            "date_listed": request.form.get("date_listed"),
+            "item_delivery": request.form.get("item_delivery"),
+            "item_image": request.form.get("item_image"),
+            "item_location": request.form.get("item_location"),
             "created_by": session["user"]
         }
         mongo.db.tasks.update_one( {"_id": ObjectId(item_id)}, {"$set": submit})

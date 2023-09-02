@@ -32,6 +32,15 @@
                     <label for="item_name">Item Name</label>
                 </div>
             </div>
+             <!-- item image -->
+             <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-camera prefix light-blue-text text-darken-4"></i>
+                    <input id="item_image" name="item_image" minlength="5" maxlength="100" 
+                    value="{{ item.item_image }}" type="text" class="validate" required>
+                    <label for="item_image">Image</label>
+                </div>
+            </div> 
             <!-- item description -->  
             <div class="row">
                 <div class="input-field col s12">
@@ -43,28 +52,30 @@
                     <label for="item_description">Item Description</label>
                 </div>
             </div>
-            <!-- date listed picker -->
-            <div class="row">
+             <!-- item location -->  
+             <div class="row">
                 <div class="input-field col s12">
-                    <i class="fas fa-calendar-alt prefix light-blue-text text-darken-4"></i>
-                    <input id="date_listed" name="date_listed" type="text" 
-                        value="{{ item.due_date }}" class="datepicker validate" required>
-                    <label for="date_listed">Date Listed</label>
+                    <i class="fas fa-phone prefix light-blue-text text-darken-4"></i>
+                    <textarea id="item_location" name="item_location" minlength="5"
+                        maxlength="200" class="materialize-textarea validate" required>
+                        {{- item.item_location -}}
+                    </textarea>
+                    <label for="item_description">Item Location</label>
                 </div>
-            </div>
-            <!-- is sold toggle -->
+            </div>           
+            <!-- delivery toggle -->
             <div class="row">
 				<div class="input-field col s12">
 					<div class="switch">
                         <i class="fas fa-exclamation-circle prefix light-blue-text text-darken-4"></i>
-						<label for="is_sold">
-                            {% if item.is_sold == "on" %}
-                                <input type="checkbox" id="is_sold" name="is_sold" checked>
+						<label for="item_delivery">
+                            {% if item.item_delivery == "on" %}
+                                <input type="checkbox" id="item_delivery" name="item_delivery" checked>
                             {% else %}
-                                <input type="checkbox" id="is_sold" name="is_sold">
+                                <input type="checkbox" id="item_delivery" name="item_delivery">
                             {% endif %}
                             <span class="lever"></span>
-                            Is Sold
+                            Delivery Available
                         </label>
 					</div>
 				</div>
