@@ -1,22 +1,22 @@
 # CLEAROUT
-CLEAROUT is a full stack web application that enables the user to quickly list and post their unwanted or used items for sale using a title, short description and price, in addition to a sold toggle to help manage the inventory. The application interface is simple, straightforward and intuitive to guide the user through the steps needed to create, read, udpate and delete their items as required. 
+CLEAROUT is a full stack web application that enables the user to quickly list unwanted or used items using a title, short description and price, in addition to a "gone" toggle to help manage the inventory. The application interface is simple, straightforward and intuitive to guide the user through the steps needed to create, read, udpate and delete their items as required. 
 
 AM I RESPONSIVE SCREENSHOT
 
 ## UX
 ### Project Goals
-The primary goal of CLEAROUT is to help the user quickly list their multiple items for sale in a short space of time without the need for creating long descriptions and uploading images that can often be time consuming. CLEAROUT is community based, for the user listing and advertising to other app users in the local community, and encourages the user to list high quantity with ease to help declutter the home or workspace. The main project focus for the CLEAROUT app is to enable listing of less important items that may not require much additional information or even pictures as a means to a quick sale or giveaway for the user. For example - A4 picture frame, used and in good condition, £3.00. The concept for CLEAROUT is to facilitate quick and easy transactions with minimal effort, and enable the buyer and seller to exchange contact details to arrange collection.
+CLEAROUT is community based recycling appliction, with sustainability at the heart, encouraging users to recycle and reuse goods before thinking of throwing them away as waste. The primary goal of CLEAROUT is to help the user quickly list their multiple items in a short space of time without the need for creating long descriptions and uploading images that can often be time consuming. The key benefit to the user is to help declutter the home or work environment in an environmentally friendly way. The main project focus for the CLEAROUT app is to enable listing of less important items that may not require much additional information or even pictures, for example - "A4 picture frame, used and in good condition, white". Anyone viewing the item and interested in something for free can take an interest and make a further enquiries. The concept for CLEAROUT is to facilitate quick and easy transactions with minimal effort, and also to foster positive community ethos and connections.
 
 
 #### User Goals 
-Seller
+Lister
 * To list and sell multiple used or unwanted items quickly and easily
 * To monetise unwanted goods
 * Interact with the application intuitively
 * To receive contact from potential buyers through the app
 * To manage the for sale inventory easily
 
-Buyer
+Browser/user
 * To see items listed from sellers in a simple format
 * To buy from members in the local community
 * To contact members in the local community about items
@@ -34,5 +34,6 @@ Desktop View
 
 Mobile View
 <img width="1063" alt="Screenshot 2023-08-20 at 10 45 54" src="https://github.com/elliotjonesdev/clearout/assets/119816371/ec319a10-7afd-4d83-8821-9a0d7e7f1e7c">
+
 
 
