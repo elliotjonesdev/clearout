@@ -6,7 +6,12 @@
     margin: 5px;
 }
 
-.collapsible-header .col strong {
-    margin: 5px;
-    line-height: 42px;
+a.brand-logo.center {
+    font-size: 3em;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+}
+
+li {
+   
 }
