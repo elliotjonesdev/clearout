@@ -11,3 +11,9 @@ a.brand-logo.center {
     font-family: Andale Mono, monospace;
     font-weight: bold;
 }
+
+.page-footer {
+    background-color:grey;
+}
+
+
