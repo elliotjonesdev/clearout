@@ -8,8 +8,15 @@
 
 a.brand-logo.center {
     font-size: 3em;
-    font-family: Andale Mono, monospace;
-    font-weight: bold;
+    font-family: 'Courier New', monospace;
+}
+
+span.card-title {
+    font-family: 'Courier New', monospace;
+}
+
+p {
+    font-family: 'Courier New', monospace;
 }
 
 .page-footer {
@@ -18,11 +25,7 @@ a.brand-logo.center {
 
 .page-banner {
     background-color:grey;
-    height: 17em;
-}
-
-h3.white-text.center-align {
-    color: black;
+    height: 13em;
 }
 
 div.welcome {
@@ -30,20 +33,38 @@ div.welcome {
     width: 80%;
 }
 
-@media only screen and (max-width: 695px) {
+@media only screen and (max-width: 900px) {
     .page-banner {
-      height: 20em;
+      height: 15em;
+    }
+  }
+
+  @media only screen and (max-width: 620px) {
+    .page-banner {
+      height: 16em;
     }
   }
 
   @media only screen and (max-width: 490px) {
     .page-banner {
-      height: 22em;
+      height: 17em;
     }
   }
 
-  @media only screen and (max-width: 395px) {
+  @media only screen and (max-width: 410px) {
     .page-banner {
-      height: 24em;
+      height: 19em;
+    }
+  }
+
+  @media only screen and (max-width: 355px) {
+    .page-banner {
+      height: 21em;
+    }
+  }
+
+  @media only screen and (max-width: 290px) {
+    .page-banner {
+      height: 22em;
     }
   }
