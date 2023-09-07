@@ -16,4 +16,18 @@ a.brand-logo.center {
     background-color:grey;
 }
 
+.page-banner {
+    background-color:grey;
+    height: 17em;
+}
+
+h3.white-text.center-align {
+    color: black;
+}
+
+div.welcome {
+    margin: auto;
+    width: 80%;
+}
+
 
