@@ -30,4 +30,20 @@ div.welcome {
     width: 80%;
 }
 
+@media only screen and (max-width: 695px) {
+    .page-banner {
+      height: 20em;
+    }
+  }
 
+  @media only screen and (max-width: 490px) {
+    .page-banner {
+      height: 22em;
+    }
+  }
+
+  @media only screen and (max-width: 395px) {
+    .page-banner {
+      height: 24em;
+    }
+  }
