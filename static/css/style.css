@@ -11,6 +11,21 @@ a.brand-logo.center {
     font-family: 'Courier New', monospace;
 }
 
+h4.center-align {
+  font-size: 3em;
+  font-family: 'Courier New', monospace;
+  margin-top: 0;
+}
+
+h4.light-blue {
+  font-size: 1.5em;
+}
+
+h6.white-text {
+  font-family: 'Courier New', monospace;
+  font-size: 2em;
+}
+
 span.card-title {
     font-family: 'Courier New', monospace;
 }

@@ -38,7 +38,9 @@
 
     <!-- mobile sidenav -->
 <ul class="sidenav" id="mobile-demo">
-        <li><h4 class="center-align light-blue-text text-darken 4">CLEAROUT!</h4></li>
+        <div class="light-green">
+        <li><h4 class="center-align white-text">CLEAROUT!</h4></li>
+        </div>
         <li><a href="{{ url_for('get_item') }}">Home</a></li>
         {% if session.user %}
           <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
@@ -90,15 +92,14 @@
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
-        <h5 class="white-text">Footer Content</h5>
-        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <h6 class="white-text">CLEAROUT</h6>
+        <p class="grey-text text-lighten-4">List and search for free items in your area</p>
       </div>
     </div>
   </div>
   <div class="footer-copyright">
-    <div class="container">
-    © 2014 Copyright Text
-    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    <div class="container center-align">
+    © 2023 by Elliot Jones
     </div>
   </div>
 </footer>
