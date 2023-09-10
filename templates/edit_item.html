@@ -1,97 +1,97 @@
 {% extends "base.html" %}
 {% block content %}
-<h6 class="light-green-text text-darken-1 center-align"> Edit Item </h6>
+<h6 class="black-text text-darken-1 center-align"> Edit Item </h6>
 
 
-    <div class="row card-panel grey lighten-5">
-        <form class="col s12" method="POST" action="{{ url_for('edit_item', item_id=item._id) }}">
-            <!-- category selection --> 
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-folder-open prefix light-blue-text text-darken-4"></i>
-                    <select id="category_name" name="category_name" class="validate" required>
+<div class="row card-panel grey lighten-5">
+    <form class="col s12" method="POST" action="{{ url_for('edit_item', item_id=item._id) }}">
+        <!-- category selection -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="fas fa-folder-open prefix light-blue-text text-darken-4"></i>
+                <select id="category_name" name="category_name" class="validate" required>
                     <option value="" disabled>Choose Category</option>
                     {% for category in categories %}
-                        {% if category.category_name == item.category_name %}
-                            <option value="{{ category.category_name }}" selected>{{ category.category_name }}</option>
-                        {% else %}
-                            <option value="{{ category.category_name }}">{{ category.category_name }}</option>
-                        {% endif %}
+                    {% if category.category_name == item.category_name %}
+                    <option value="{{ category.category_name }}" selected>{{ category.category_name }}</option>
+                    {% else %}
+                    <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                    {% endif %}
                     {% endfor %}
-                    </select>
-                    <label for="category_name">Item Category</label>
-                  </div>
+                </select>
+                <label for="category_name">Item Category</label>
+            </div>
 
+        </div>
+        <!-- item name -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="fas fa-user-circle prefix light-blue-text text-darken-4"></i>
+                <input id="item_name" name="item_name" minlength="5" maxlength="50" value="{{ item.item_name }}"
+                    type="text" class="validate" required>
+                <label for="item_name">Item Name</label>
             </div>
-            <!-- item name -->
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-user-circle prefix light-blue-text text-darken-4"></i>
-                    <input id="item_name" name="item_name" minlength="5" maxlength="50" 
-                    value="{{ item.item_name }}" type="text" class="validate" required>
-                    <label for="item_name">Item Name</label>
-                </div>
+        </div>
+        <!-- item image -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="fas fa-camera prefix light-blue-text text-darken-4"></i>
+                <input id="item_image" name="item_image" minlength="5" maxlength="300" value="{{ item.item_image }}"
+                    type="text" class="validate" required>
+                <label for="item_image">Image</label>
             </div>
-             <!-- item image -->
-             <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-camera prefix light-blue-text text-darken-4"></i>
-                    <input id="item_image" name="item_image" minlength="5" maxlength="300" 
-                    value="{{ item.item_image }}" type="text" class="validate" required>
-                    <label for="item_image">Image</label>
-                </div>
-            </div> 
-            <!-- item description -->  
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-phone prefix light-blue-text text-darken-4"></i>
-                    <textarea id="item_description" name="item_description" minlength="5"
-                        maxlength="200" class="materialize-textarea validate" required>
+        </div>
+        <!-- item description -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="fas fa-phone prefix light-blue-text text-darken-4"></i>
+                <textarea id="item_description" name="item_description" minlength="5" maxlength="200"
+                    class="materialize-textarea validate" required>
                         {{- item.item_description -}}
                     </textarea>
-                    <label for="item_description">Item Description</label>
-                </div>
+                <label for="item_description">Item Description</label>
             </div>
-             <!-- item location -->  
-             <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-map-pin prefix light-blue-text text-darken-4"></i>
-                    <textarea id="item_location" name="item_location" minlength="5"
-                        maxlength="200" class="materialize-textarea validate" required>
+        </div>
+        <!-- item location -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="fas fa-map-pin prefix light-blue-text text-darken-4"></i>
+                <textarea id="item_location" name="item_location" minlength="5" maxlength="200"
+                    class="materialize-textarea validate" required>
                         {{- item.item_location -}}
                     </textarea>
-                    <label for="item_description">Item Location</label>
-                </div>
-            </div>           
-            <!-- delivery toggle -->
-            <div class="row">
-				<div class="input-field col s12">
-					<div class="switch">
-                        <i class="fas fa-truck prefix light-blue-text text-darken-4"></i>
-						<label for="item_delivery">
-                            {% if item.item_delivery == "on" %}
-                                <input type="checkbox" id="item_delivery" name="item_delivery" checked>
-                            {% else %}
-                                <input type="checkbox" id="item_delivery" name="item_delivery">
-                            {% endif %}
-                            <span class="lever"></span>
-                            Delivery Available
-                        </label>
-					</div>
-				</div>
-			</div>
-             <!-- submit button -->
-            <div class="row">
-                <div class="col s12 center-align">
-            <!-- cancel button -->
-            <a href="{{ url_for('get_item') }}" class="btn-large red text-shadow">
-                Cancel <i class="fas fa-times-circle right"></i>
-            </a>
-            <button type="submit" class="btn-large light-blue darken-1 text-shadow">
-                        Edit Item <i class="fas fa-edit right"></i>
-            </button>
+                <label for="item_description">Item Location</label>
             </div>
-        </form>
-    </div>
+        </div>
+        <!-- delivery toggle -->
+        <div class="row">
+            <div class="input-field col s12">
+                <div class="switch">
+                    <i class="fas fa-truck prefix light-blue-text text-darken-4"></i>
+                    <label for="item_delivery">
+                        {% if item.item_delivery == "on" %}
+                        <input type="checkbox" id="item_delivery" name="item_delivery" checked>
+                        {% else %}
+                        <input type="checkbox" id="item_delivery" name="item_delivery">
+                        {% endif %}
+                        <span class="lever"></span>
+                        Delivery Available
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!-- submit button -->
+        <div class="row">
+            <div class="col s12 center-align">
+                <!-- cancel button -->
+                <a href="{{ url_for('get_item') }}" class="btn-large red text-shadow">
+                    Cancel <i class="fas fa-times-circle right"></i>
+                </a>
+                <button type="submit" class="btn-large light-blue darken-1 text-shadow">
+                    Edit Item <i class="fas fa-edit right"></i>
+                </button>
+            </div>
+    </form>
+</div>
 
 {% endblock %}

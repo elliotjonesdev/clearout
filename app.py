@@ -24,6 +24,7 @@ def get_item():
     item = list(mongo.db.tasks.find())
     return render_template("item.html", item=item)
 
+
 @app.route("/search", methods=["GET", "POST"])
 def search():
     query = request.form.get("query")
@@ -65,10 +66,10 @@ def login():
         if existing_user:
             # ensure hashed password matches user input
             if check_password_hash(
-                existing_user["password"], request.form.get("password")):
+                    existing_user["password"], request.form.get("password")):
                     session["user"] = request.form.get("username").lower()
                     flash("Welcome Back, {}".format(
-                        request.form.get("username")))
+                    request.form.get("username")))
                     return redirect(url_for(
                         "profile", username=session["user"]))
             else:

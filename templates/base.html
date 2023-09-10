@@ -1,116 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" 
-    integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA==" crossorigin="anonymous" referrerpolicy="no-referrer" type="text/css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
-    {% block styles %}
-    {% endblock %}
-    <title>Clearout</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    type="text/css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+  {% block styles %}
+  {% endblock %}
+  <title>Clearout</title>
 </head>
+
 <body>
 
   <header>
     <!-- top navbar -->
-<nav class="nav-extended text-shadow 757575 grey darken-1">
-  <div class="nav-wrapper light-green">
-    <a href="{{ url_for('get_item') }}" class="brand-logo center">CLEAROUT!</a>
-    <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
-    <ul class="right hide-on-med-and-down">
-      <li><a href="{{ url_for('get_item') }}">Home</a></li>
-      {% if session.user %}
-        <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
-        <li><a href="{{ url_for('add_item') }}">New Item</a></li>
-        {% if session.user|lower == "admin"|lower %}
-          <li><a href="{{ url_for('get_categories') }}">Manage Categories</a></li>
-        {% endif %}
-        <li><a href="{{ url_for('logout') }}">Log Out</a></li>
-      {% else %}
-        <li><a href="{{ url_for('login') }}">Log In</a></li>
-        <li><a href="{{ url_for('register') }}">Register</a></li>
-      {% endif %}
-    </ul>
-  </div>
-</nav>
-
-    <!-- mobile sidenav -->
-<ul class="sidenav" id="mobile-demo">
-        <div class="light-green">
-        <li><h4 class="center-align white-text">CLEAROUT!</h4></li>
-        </div>
-        <li><a href="{{ url_for('get_item') }}">Home</a></li>
-        {% if session.user %}
+    <nav class="nav-extended text-shadow 757575 grey darken-1">
+      <div class="nav-wrapper light-green darken-3">
+        <a href="{{ url_for('get_item') }}" class="brand-logo center">CLEAROUT!</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="{{ url_for('get_item') }}">Home</a></li>
+          {% if session.user %}
           <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
           <li><a href="{{ url_for('add_item') }}">New Item</a></li>
           {% if session.user|lower == "admin"|lower %}
           <li><a href="{{ url_for('get_categories') }}">Manage Categories</a></li>
           {% endif %}
           <li><a href="{{ url_for('logout') }}">Log Out</a></li>
-        {% else %}
+          {% else %}
           <li><a href="{{ url_for('login') }}">Log In</a></li>
           <li><a href="{{ url_for('register') }}">Register</a></li>
-        {% endif %}
-</ul>
-</header>
+          {% endif %}
+        </ul>
+      </div>
+    </nav>
 
-<div class="page-banner">
-<br>
-        <div class="welcome">
-          <div class="col s12 m6 center-align">
-            <div class="card blue-grey darken-1">
-              <div class="card-content white-text">
-                <span class="card-title">Welcome</span>
-                <p>Use Clearout to help declutter your home and to pass on your unwanted items, what's more you can search for free items in your area, all completely for free!</p>
-              </div>
-            </div>
+    <!-- mobile sidenav -->
+    <ul class="sidenav" id="mobile-demo">
+      <div class="light-green darken-3">
+        <li>
+          <h4 class="center-align white-text">CLEAROUT!</h4>
+        </li>
+      </div>
+      <li><a href="{{ url_for('get_item') }}">Home</a></li>
+      {% if session.user %}
+      <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
+      <li><a href="{{ url_for('add_item') }}">New Item</a></li>
+      {% if session.user|lower == "admin"|lower %}
+      <li><a href="{{ url_for('get_categories') }}">Manage Categories</a></li>
+      {% endif %}
+      <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+      {% else %}
+      <li><a href="{{ url_for('login') }}">Log In</a></li>
+      <li><a href="{{ url_for('register') }}">Register</a></li>
+      {% endif %}
+    </ul>
+  </header>
+
+  <div class="page-banner">
+    <br>
+    <div class="welcome">
+      <div class="col s12 m6 center-align">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">Welcome</span>
+            <p>Use Clearout to help declutter your home and to pass on your unwanted items, what's more you can search
+              for free items in your area, all completely for free!</p>
           </div>
         </div>
-</div>
-
-<section>
-  <!-- flash messages -->
-  {% with messages = get_flashed_messages() %}
-      {% if messages %}
-          {% for message in messages %}
-              <div class="row flashes">
-                  <h4 class="light-blue lighten-4 center-align">{{ message }}</h4>
-              </div>
-          {% endfor %}
-      {% endif %}
-  {% endwith %}
-</section>
-
-<main class="container">
-  {% block content %}
-  {% endblock %}
-</main>
-
-<footer class="page-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col l6 s12">
-        <h6 class="white-text">CLEAROUT</h6>
-        <p class="grey-text text-lighten-4">List and search for free items in your area</p>
       </div>
     </div>
   </div>
-  <div class="footer-copyright">
-    <div class="container center-align">
-    © 2023 by Elliot Jones
-    </div>
-  </div>
-</footer>
 
-    <script
-  src="https://code.jquery.com/jquery-3.7.0.min.js"
-  integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
-  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    {% block scripts %}
+  <section>
+    <!-- flash messages -->
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for message in messages %}
+    <div class="row flashes">
+      <h4 class="light-blue lighten-4 center-align">{{ message }}</h4>
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+  </section>
+
+  <main class="container">
+    {% block content %}
     {% endblock %}
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h6 class="black-text">CLEAROUT</h6>
+          <p class="black-text">List and search for free items in your area</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  {% block scripts %}
+  {% endblock %}
 </body>
+
 </html>

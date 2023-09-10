@@ -1,14 +1,22 @@
 .flashes h4 {
-    line-height: 2;
+  line-height: 2;
 }
 
 .btn-small {
-    margin: 5px;
+  margin: 5px;
+}
+
+button.col.s12.btn-large {
+  background-color: black;
 }
 
 a.brand-logo.center {
-    font-size: 3em;
-    font-family: 'Courier New', monospace;
+  font-size: 3em;
+  font-family: 'Courier New', monospace;
+}
+
+.nav-wrapper {
+  border-bottom: 1px solid black;
 }
 
 h4.center-align {
@@ -26,60 +34,76 @@ h6.white-text {
   font-size: 2em;
 }
 
+h6.black-text {
+  font-family: 'Courier New', monospace;
+}
+
 span.card-title {
-    font-family: 'Courier New', monospace;
+  font-family: 'Courier New', monospace;
 }
 
 p {
-    font-family: 'Courier New', monospace;
+  font-family: 'Courier New', monospace;
 }
 
 .page-footer {
-    background-color:grey;
+  background-color: grey;
+  height:13em;
+  border-top: 1px solid black;
 }
 
 .page-banner {
-    background-color:grey;
-    height: 13em;
+  background-color: grey;
+  height:13em;
 }
 
 div.welcome {
-    margin: auto;
-    width: 80%;
+  margin: auto;
+  width: 80%;
+}
+
+footer.page-footer {
+  background-color: #F0F0F0	;
+  height: 12em;
+}
+
+div.card.center-align {
+  border-color:black;
+  border-style: solid;
 }
 
 @media only screen and (max-width: 900px) {
-    .page-banner {
-      height: 15em;
-    }
+  .page-banner {
+    height: 15em;
   }
+}
 
-  @media only screen and (max-width: 620px) {
-    .page-banner {
-      height: 16em;
-    }
+@media only screen and (max-width: 620px) {
+  .page-banner {
+    height: 16em;
   }
+}
 
-  @media only screen and (max-width: 490px) {
-    .page-banner {
-      height: 17em;
-    }
+@media only screen and (max-width: 490px) {
+  .page-banner {
+    height: 17em;
   }
+}
 
-  @media only screen and (max-width: 410px) {
-    .page-banner {
-      height: 19em;
-    }
+@media only screen and (max-width: 410px) {
+  .page-banner {
+    height: 19em;
   }
+}
 
-  @media only screen and (max-width: 355px) {
-    .page-banner {
-      height: 21em;
-    }
+@media only screen and (max-width: 355px) {
+  .page-banner {
+    height: 21em;
   }
+}
 
-  @media only screen and (max-width: 290px) {
-    .page-banner {
-      height: 22em;
-    }
+@media only screen and (max-width: 290px) {
+  .page-banner {
+    height: 22em;
   }
+}

@@ -1,19 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
-<h6 class="light-green-text text-darken-1 center-align"> Home </h6>
+<h6 class="black-text text-darken-1 center-align"> Home </h6>
 
 
-<div class="row card-panel grey lighten-5">
+<div class="row card-panel grey lighten-4">
     <form action="{{ url_for('search') }}" method="post" class="col s12">
         <div class="row valign-wrapper center-align">
             <div class="input-field col s12 m8">
-                <i class="fas fa-search prefix light-green-text text-darken-1"></i>
+                <i class="fas fa-search prefix light-green-text text-darken-3"></i>
                 <input type="text" name="query" id="query" minlength="3" class="validate" required>
                 <label for="query">Search Items</label>
             </div>
             <div class="col s12 m4">
-                <a href="{{ url_for('get_item') }}" class="red btn text-shadow">Reset</a>
-                <button type="submit" class="light-blue darken-1 btn text-shadow">
+                <a href="{{ url_for('get_item') }}" class="light-green black-text btn">Reset</a>
+                <button type="submit" class="light-blue black-text btn">
                     <i class="fas fa-search left"></i> Search
                 </button>
             </div>
@@ -21,35 +21,35 @@
     </form>
 </div>
 
-             <!-- item cards -->
-             <div class="row">
-                {% for item in item %}
-                    <div class="col s12 m4">
-                        <div class="card 757575 grey text-shadow center-align">
-                            <div class="card-content white-text">
-                                <span class="card-title">{{ item.item_name }}</span>
-                                <img src="{{ item.item_image }}" height="180" width="180"/>
-                                <br>
-                                <br>
-                                <p>{{ item.item_description }}</p>
-                                <br>
-                                <p>{{ item.item_location }}</p>
-                                {% if item.item_delivery == "on" %}
-                                <i class="fas fa-truck prefix light-green-text text-lighten-2 tooltipped"
-                                    data-position="right" data-tooltip="DELIVERY AVAILABLE!"></i>
-                                {% endif %}
-                                <p><em>by: {{ item.created_by }}</em></p>
-                                {% if session.user|lower == item.created_by|lower %}
-                                <br>
-                                <a href="{{ url_for('delete_item', item_id=item._id) }}" class="btn-small light-green darken-1">Delete</a>
-                                <a href="{{ url_for('edit_item', item_id=item._id) }}" class="btn-small red lighten-1">Edit</a>
-                            {% endif %}
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div> 
-  
+<!-- item cards -->
+<div class="row">
+    {% for item in item %}
+    <div class="col s12 m4">
+        <div class="card center-align">
+            <div class="card-content black-text">
+                <span class="card-title">{{ item.item_name }}</span>
+                <img src="{{ item.item_image }}" height="180" width="180" />
+                <br>
+                <br>
+                <p>{{ item.item_description }}</p>
+                <br>
+                <p>{{ item.item_location }}</p>
+                {% if item.item_delivery == "on" %}
+                <i class="fas fa-truck prefix light-green-text text-lighten-2 tooltipped" data-position="right"
+                    data-tooltip="DELIVERY AVAILABLE!"></i>
+                {% endif %}
+                <p><em>by: {{ item.created_by }}</em></p>
+                {% if session.user|lower == item.created_by|lower %}
+                <br>
+                <a href="{{ url_for('delete_item', item_id=item._id) }}"
+                    class="btn-small light-green darken-4">Delete</a>
+                <a href="{{ url_for('edit_item', item_id=item._id) }}" class="btn-small red darken-4">Edit</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
 
-            {% endblock %}
- 
+
+{% endblock %}

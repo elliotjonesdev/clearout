@@ -1,80 +1,80 @@
 {% extends "base.html" %}
 {% block content %}
-<h6 class="light-green-text text-darken-1 center-align"> New Item </h6>
+<h6 class="black-text text-darken-1 center-align"> New Item </h6>
 
 
-    <div class="row card-panel grey lighten-5">
-        <form class="col s12" method="POST" action="{{ url_for('add_item') }}">
-            <!-- category selection --> 
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-folder-open prefix light-green-text text-darken-1"></i>
-                    <select id="category_name" name="category_name" class="validate" required>
+<div class="row card-panel grey lighten-5">
+    <form class="col s12" method="POST" action="{{ url_for('add_item') }}">
+        <!-- category selection -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="fas fa-folder-open prefix light-green-text text-darken-1"></i>
+                <select id="category_name" name="category_name" class="validate" required>
                     <option value="" disabled selected>Choose Category</option>
                     {% for category in categories %}
-                        <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                    <option value="{{ category.category_name }}">{{ category.category_name }}</option>
                     {% endfor %}
-                    </select>
-                    <label for="category_name">Item Category</label>
-                  </div>
+                </select>
+                <label for="category_name">Item Category</label>
             </div>
-            <!-- item name -->
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-plus prefix light-green-text text-darken-1"></i>
-                    <input id="item_name" name="item_name" minlength="5" maxlength="50" 
-                    type="text" class="validate" required>
-                    <label for="item_name">Item Name</label>
+        </div>
+        <!-- item name -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="fas fa-plus prefix light-green-text text-darken-1"></i>
+                <input id="item_name" name="item_name" minlength="5" maxlength="50" type="text" class="validate"
+                    required>
+                <label for="item_name">Item Name</label>
+            </div>
+        </div>
+        <!-- item image -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="fas fa-camera prefix light-green-text text-darken-1"></i>
+                <input id="item_image" name="item_image" minlength="5" maxlength="300" type="text" class="validate"
+                    required>
+                <label for="item_image">Image</label>
+            </div>
+        </div>
+        <!-- item description -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="fas fa-list prefix light-green-text text-darken-1"></i>
+                <textarea id="item_description" name="item_description" minlength="5" maxlength="200"
+                    class="materialize-textarea validate" required></textarea>
+                <label for="item_description">Item Description</label>
+            </div>
+        </div>
+        <!-- item location -->
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="fas fa-map-pin  prefix light-green-text text-darken-1"></i>
+                <textarea id="item_location" name="item_location" minlength="5" maxlength="30"
+                    class="materialize-textarea validate" required></textarea>
+                <label for="item_description">Item Location</label>
+            </div>
+        </div>
+        <!-- delivery toggle -->
+        <div class="row">
+            <div class="input-field col s12">
+                <div class="switch">
+                    <i class="fas fa-truck prefix light-green-text text-darken-1"></i>
+                    <label for="item_delivery">
+                        <input type="checkbox" id="item_delivery" name="item_delivery">
+                        <span class="lever"></span>
+                        Delivery Available
+                    </label>
                 </div>
             </div>
-             <!-- item image -->
-             <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-camera prefix light-green-text text-darken-1"></i>
-                    <input id="item_image" name="item_image" minlength="5" maxlength="300" 
-                    type="text" class="validate" required>
-                    <label for="item_image">Image</label>
-                </div>
-            </div>                       
-            <!-- item description -->  
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-list prefix light-green-text text-darken-1"></i>
-                    <textarea id="item_description" name="item_description" minlength="5"
-                    maxlength="200" class="materialize-textarea validate" required></textarea>
-                    <label for="item_description">Item Description</label>
-                </div>
+        </div>
+        <!-- submit button -->
+        <div class="row">
+            <div class="col s12 center-align">
+                <button type="submit" class="btn-large ">
+                    Add Item <i class="fas fa-plus-square right"></i>
+                </button>
             </div>
-            <!-- item location -->  
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="fas fa-map-pin  prefix light-green-text text-darken-1"></i>
-                    <textarea id="item_location" name="item_location" minlength="5"
-                    maxlength="30" class="materialize-textarea validate" required></textarea>
-                    <label for="item_description">Item Location</label>
-                </div>
-            </div>
-            <!-- delivery toggle -->
-            <div class="row">
-				<div class="input-field col s12">
-					<div class="switch">
-                        <i class="fas fa-truck prefix light-green-text text-darken-1"></i>
-						<label for="item_delivery">
-                            <input type="checkbox" id="item_delivery" name="item_delivery">
-                            <span class="lever"></span>
-                            Delivery Available
-                        </label>
-					</div>
-				</div>
-			</div>
-             <!-- submit button -->
-            <div class="row">
-                <div class="col s12 center-align">
-                    <button type="submit" class="btn-large ">
-                        Add Item <i class="fas fa-plus-square right"></i>
-                    </button>
-            </div>
-        </form>
-    </div>
+    </form>
+</div>
 
 {% endblock %}
