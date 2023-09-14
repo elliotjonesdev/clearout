@@ -36,7 +36,7 @@ Mobile View
 <img width="1063" alt="Screenshot 2023-08-20 at 10 45 54" src="https://github.com/elliotjonesdev/clearout/assets/119816371/ec319a10-7afd-4d83-8821-9a0d7e7f1e7c">
 
 ## Features
-### Home Page
+### All Pages
 * #### Logo and welcome message
   * The name CLEAROUT has a simple and clean visual appearance with use of white text on dark green background to reflect the sustainable theme of the website. The welcome message is brief and clearly states the key benefits of using the website in a friendly and easygoing tone. The dark background adds contract to the white text message to help draw user attention to the landing page and engage with the content.
 <p align="center"><img width="1440" alt="Screenshot 2023-09-14 at 18 27 31" src="https://github.com/elliotjonesdev/clearout/assets/119816371/fc5abfbc-aa98-469e-a9ab-40e4d66f580b">
@@ -45,3 +45,7 @@ Mobile View
 * #### Navigation
   * Desktop navigation bar is laid out with minimal visual clutter and on hover the dark green background is replaced with a deeper shade of green behind the selected text. This helps the user instantly interact with the navigation in an intuitive manner.
 <p align="center"><img width="253" alt="Screenshot 2023-09-14 at 18 36 55" src="https://github.com/elliotjonesdev/clearout/assets/119816371/9065d9dc-61ee-4faf-b8e5-77a3ba1eb060"></p>
+
+* #### Footer
+    * The footer is simple and uncluttered with clear messaging, and simple in the sense that it contains the basic information and a repeat message about the CLEAROUT website. The user is reminded of the purpose of their visit to the website in a short snetence.
+<p align="center"></p>
