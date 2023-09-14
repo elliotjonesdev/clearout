@@ -37,6 +37,11 @@ Mobile View
 
 ## Features
 * #### Logo and welcome message
-  * The name CLEAROUT has a simple and clean visual appearance with use of white text on dark green background to reflect the sustainable theme of the website. 
+  * The name CLEAROUT has a simple and clean visual appearance with use of white text on dark green background to reflect the sustainable theme of the website. The welcome message is brief and clearly states the key benefits of using the website in a friendly and easygoing tone. The dark background adds contract to the white text message to help draw user attention to the landing page and engage with the content.
+<p align="center"><img width="1440" alt="Screenshot 2023-09-14 at 18 27 31" src="https://github.com/elliotjonesdev/clearout/assets/119816371/fc5abfbc-aa98-469e-a9ab-40e4d66f580b">
+</p>
+
+* #### Navigation
+  * Desktop navigation bar is laid out with minimal visual clutter and on hover the dark green background is replaced with a deeper shade of green behind the selected text. This helps the user instantly interact with the navigation in an intuitive manner.
 <p align="center">
 </p>
