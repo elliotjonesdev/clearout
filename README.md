@@ -1,7 +1,7 @@
 # CLEAROUT
 CLEAROUT is a full stack web application that enables the user to quickly list unwanted or used items using a title, short description and price, in addition to a "gone" toggle to help manage the inventory. The application interface is simple, straightforward and intuitive to guide the user through the steps needed to create, read, udpate and delete their items as required. 
 
-AM I RESPONSIVE SCREENSHOT
+<img width="1440" alt="Screenshot 2023-09-14 at 18 17 31" src="https://github.com/elliotjonesdev/clearout/assets/119816371/44923c98-797d-4474-8bbb-3c1af68f207d">
 
 ## UX
 ### Project Goals
