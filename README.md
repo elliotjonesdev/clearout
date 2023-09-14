@@ -1,5 +1,5 @@
 # CLEAROUT
-CLEAROUT is a full stack web application that enables the user to quickly list unwanted or used items using a title, short description and price, in addition to a "delivery available" toggle to highlight options to the user. The application interface is simple, straightforward and intuitive to guide the user through the steps needed to create, read, udpate and delete their items as required. 
+CLEAROUT is a full stack web application that enables the user to quickly list unwanted or used items using a title, short description and price, in addition to a "delivery available" toggle to highlight options to the site visitor. The application interface is simple, straightforward and intuitive to guide the user through the steps needed to create, read, udpate and delete their items as required. 
 
 <img width="1440" alt="Screenshot 2023-09-14 at 18 17 31" src="https://github.com/elliotjonesdev/clearout/assets/119816371/44923c98-797d-4474-8bbb-3c1af68f207d">
 
