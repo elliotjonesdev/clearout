@@ -47,7 +47,7 @@ Mobile View
 <p align="center"><img width="253" alt="Screenshot 2023-09-14 at 18 36 55" src="https://github.com/elliotjonesdev/clearout/assets/119816371/9065d9dc-61ee-4faf-b8e5-77a3ba1eb060"></p>
 
 * #### Footer
-    * The footer is simple and uncluttered with clear messaging, and simple in the sense that it contains the basic information and a repeat message about the CLEAROUT website. The user is reminded of the purpose of their visit to the website in a short sentence.
+    * The footer is simple and uncluttered with clear messaging, and simple in the sense that it contains the basic information and a repeat message about the CLEAROUT website. The user is reminded of the purpose of their visit to the website in a short and informative sentence.
 <p align="center"><img width="1440" alt="Screenshot 2023-09-14 at 20 37 23" src="https://github.com/elliotjonesdev/clearout/assets/119816371/689dea6f-bf55-41a6-88b1-4f93350ba320"></p>
 
 ### Home Page
