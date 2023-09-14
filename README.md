@@ -35,5 +35,8 @@ Desktop View
 Mobile View
 <img width="1063" alt="Screenshot 2023-08-20 at 10 45 54" src="https://github.com/elliotjonesdev/clearout/assets/119816371/ec319a10-7afd-4d83-8821-9a0d7e7f1e7c">
 
-
-
+## Features
+* #### Logo and welcome message
+  * The name CLEAROUT has a simple and clean visual appearance with use of white text on dark green background to reflect the sustainable theme of the website. 
+<p align="center">
+</p>
