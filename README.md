@@ -1,7 +1,7 @@
 # CLEAROUT
-CLEAROUT is a full stack web application that enables the user to quickly list unwanted or used items using a title, short description and price, in addition to a "gone" toggle to help manage the inventory. The application interface is simple, straightforward and intuitive to guide the user through the steps needed to create, read, udpate and delete their items as required. 
+CLEAROUT is a full stack web application that enables the user to quickly list unwanted or used items using a title, short description and price, in addition to a "delivery available" toggle to highlight options to the site visitor. The application interface is simple, straightforward and intuitive to guide the user through the steps needed to create, read, udpate and delete their items as required. 
 
-AM I RESPONSIVE SCREENSHOT
+<img width="1440" alt="Screenshot 2023-09-14 at 18 17 31" src="https://github.com/elliotjonesdev/clearout/assets/119816371/44923c98-797d-4474-8bbb-3c1af68f207d">
 
 ## UX
 ### Project Goals
@@ -35,5 +35,22 @@ Desktop View
 Mobile View
 <img width="1063" alt="Screenshot 2023-08-20 at 10 45 54" src="https://github.com/elliotjonesdev/clearout/assets/119816371/ec319a10-7afd-4d83-8821-9a0d7e7f1e7c">
 
+## Features
+### All Pages
+* #### Logo and welcome message
+  * The name CLEAROUT has a simple and clean visual appearance with use of white text on dark green background to reflect the sustainable theme of the website. The welcome message is brief and clearly states the key benefits of using the website in a friendly and easygoing tone. The dark background adds contract to the white text message to help draw user attention to the landing page and engage with the content.
+<p align="center"><img width="1440" alt="Screenshot 2023-09-14 at 18 27 31" src="https://github.com/elliotjonesdev/clearout/assets/119816371/fc5abfbc-aa98-469e-a9ab-40e4d66f580b">
+</p>
 
+* #### Navigation
+  * Desktop navigation bar is laid out with minimal visual clutter and on hover the dark green background is replaced with a deeper shade of green behind the selected text. This helps the user instantly interact with the navigation in an intuitive manner.
+<p align="center"><img width="253" alt="Screenshot 2023-09-14 at 18 36 55" src="https://github.com/elliotjonesdev/clearout/assets/119816371/9065d9dc-61ee-4faf-b8e5-77a3ba1eb060"></p>
 
+* #### Footer
+    * The footer is simple and uncluttered with clear messaging, and simple in the sense that it contains the basic information and a repeat message about the CLEAROUT website. The user is reminded of the purpose of their visit to the website in a short sentence.
+<p align="center"><img width="1440" alt="Screenshot 2023-09-14 at 20 37 23" src="https://github.com/elliotjonesdev/clearout/assets/119816371/689dea6f-bf55-41a6-88b1-4f93350ba320"></p>
+
+### Home Page
+* #### Search Bar
+    * The search bar enables the user to quickly and easily find listed items using keywords. This has a simple and intuitive layout and includes search and reset buttons with contrasting colors to help the user find items with ease and speed.
+<p align="center"></p>
