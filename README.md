@@ -157,3 +157,4 @@ Mobile View
 
 * #### Edit Category
     * In edit category view the admin has the option to update the category, prompted by a form containing a folder icon and a large blue edit category button to complete the task, or a large red cancel button to go back.
+<img width="1440" alt="Screenshot 2023-09-16 at 21 23 34" src="https://github.com/elliotjonesdev/clearout/assets/119816371/5b7952a5-f98e-4f07-bdcb-e73121f36bbc">
