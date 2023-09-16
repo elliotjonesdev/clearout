@@ -57,6 +57,6 @@ Mobile View
 </p>
 
 * #### Item Cards
-    * The item cards are clearly presented to the user and contain an image of the item offered along with a brief description, location and item title. The lorry icon also displays to the user where delivery is available and the username appears at the bottom of the card to show which website member has listed the item.
-<p align="center">
+    * The item cards are clearly presented to the user and contain an image of the item offered along with a brief description, location and item title. The lorry icon also displays to the user where delivery is available and the username appears at the bottom of the card to show which website member has listed the item. Information is centrally aligned to mirror the overall layout of the website for user friendly scrolling.
+<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 08 06" src="https://github.com/elliotjonesdev/clearout/assets/119816371/0f9d8e3c-408e-478d-89b5-5a9b1b703821">
 </p>
