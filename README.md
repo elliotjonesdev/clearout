@@ -36,7 +36,6 @@ Mobile View
 <img width="1063" alt="Screenshot 2023-08-20 at 10 45 54" src="https://github.com/elliotjonesdev/clearout/assets/119816371/ec319a10-7afd-4d83-8821-9a0d7e7f1e7c">
 
 ## Features
-### All Pages
 * #### Logo and welcome message
   * The name CLEAROUT has a simple and clean visual appearance with use of white text on dark green background to reflect the sustainable theme of the website. The welcome message is brief and clearly states the key benefits of using the website in a friendly and easygoing tone. The dark background adds contract to the white text message to help draw user attention to the landing page and engage with the content.
 <p align="center"><img width="1440" alt="Screenshot 2023-09-14 at 18 27 31" src="https://github.com/elliotjonesdev/clearout/assets/119816371/fc5abfbc-aa98-469e-a9ab-40e4d66f580b">
@@ -50,7 +49,6 @@ Mobile View
     * The footer is simple and uncluttered with clear messaging, and simple in the sense that it contains the basic information and a repeat message about the CLEAROUT website. The user is reminded of the purpose of their visit to the website in a short and informative sentence.
 <p align="center"><img width="1440" alt="Screenshot 2023-09-14 at 20 37 23" src="https://github.com/elliotjonesdev/clearout/assets/119816371/689dea6f-bf55-41a6-88b1-4f93350ba320"></p>
 
-### Home Page
 * #### Search Bar
     * The search bar enables the user to quickly and easily find listed items using keywords. This has a simple and intuitive layout and includes search and reset buttons with contrasting colors to help the user find items with ease and speed. The magnifying glass helps to guide the user to the search bar with a visual magnifying glasss icon set to the same color as the main navigation area.The search function enables the user to type a keyword to display any items listed that contain the keyword, as shown in the screenshot - items are removed from the homescreen leaving only relevant listings for the user to select from.
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 17 55 27" src="https://github.com/elliotjonesdev/clearout/assets/119816371/d7aa33c9-7a02-4f77-9491-836406eb0757">
@@ -62,4 +60,10 @@ Mobile View
 * #### Item Cards
     * The item cards are clearly presented to the user and contain an image of the item offered along with a brief description, location and item title. The lorry icon also displays to the user where delivery is available and the username appears at the bottom of the card to show which website member has listed the item. Information is centrally aligned to mirror the overall layout of the website for user friendly scrolling.
 <p align="center"><img width="1419" alt="Screenshot 2023-09-16 at 18 16 43" src="https://github.com/elliotjonesdev/clearout/assets/119816371/389be586-42b2-4bee-a7d9-b6aaf029e4a5">
+</p>
+
+## Registration and Login Pages
+* #### Login Page
+    * The login page features a simple centralised layout with form submission requiring all fields complete to log in as a user. Large icons are used to assist the user with use of the form, and a large login button is included. The registration page contains a form with all fields required to enable submission. The users password is hashed for security.
+<p align="center">
 </p>
