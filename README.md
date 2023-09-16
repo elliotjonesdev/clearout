@@ -154,3 +154,6 @@ Mobile View
 * #### Add Category
     * In add category view the admin has the option to add a new category, prompted by a form containing a folder icon and a large blue add category button to complete the task.
 <img width="1440" alt="Screenshot 2023-09-16 at 21 01 58" src="https://github.com/elliotjonesdev/clearout/assets/119816371/c2176bab-9bfa-4104-a07a-87b27385884b">
+
+* #### Edit Category
+    * In edit category view the admin has the option to update the category, prompted by a form containing a folder icon and a large blue edit category button to complete the task, or a large red cancel button to go back.
