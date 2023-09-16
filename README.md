@@ -52,11 +52,11 @@ Mobile View
 
 ### Home Page
 * #### Search Bar
-    * The search bar enables the user to quickly and easily find listed items using keywords. This has a simple and intuitive layout and includes search and reset buttons with contrasting colors to help the user find items with ease and speed. The magnifying glass helps to guide the user to the search bar with a visual magnifying glasss icon set to the same color as the main navigation area.
+    * The search bar enables the user to quickly and easily find listed items using keywords. This has a simple and intuitive layout and includes search and reset buttons with contrasting colors to help the user find items with ease and speed. The magnifying glass helps to guide the user to the search bar with a visual magnifying glasss icon set to the same color as the main navigation area.The search function enables the user to type a keyword to display any items listed that contain the keyword, as shown in the screenshot - items are removed from the homescreen leaving only relevant listings for the user to select from.
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 17 55 27" src="https://github.com/elliotjonesdev/clearout/assets/119816371/d7aa33c9-7a02-4f77-9491-836406eb0757">
 </p>
-    * The search function enables the user to type a keyword to display any items listed that contain the keyword, as shown in the screenshot - items are removed from the homescreen leaving only relevant listings for the user to select from.
-<p align="center">
+
+<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 20 32" src="https://github.com/elliotjonesdev/clearout/assets/119816371/51962d39-3677-44a1-a542-32b7660462c3">
 </p>
 
 * #### Item Cards
