@@ -35,7 +35,7 @@ Desktop View
 Mobile View
 <img width="1063" alt="Screenshot 2023-08-20 at 10 45 54" src="https://github.com/elliotjonesdev/clearout/assets/119816371/ec319a10-7afd-4d83-8821-9a0d7e7f1e7c">
 
-## Features
+## User Features
 * #### Logo and welcome message
   * The name CLEAROUT has a simple and clean visual appearance with use of white text on dark green background to reflect the sustainable theme of the website. The welcome message is brief and clearly states the key benefits of using the website in a friendly and easygoing tone. The dark background adds contract to the white text message to help draw user attention to the landing page and engage with the content.
 <p align="center"><img width="1440" alt="Screenshot 2023-09-14 at 18 27 31" src="https://github.com/elliotjonesdev/clearout/assets/119816371/fc5abfbc-aa98-469e-a9ab-40e4d66f580b">
@@ -62,7 +62,6 @@ Mobile View
 <p align="center"><img width="1419" alt="Screenshot 2023-09-16 at 18 16 43" src="https://github.com/elliotjonesdev/clearout/assets/119816371/389be586-42b2-4bee-a7d9-b6aaf029e4a5">
 </p>
 
-## Registration and Login Pages
 * #### Login Page
     * The login page features a simple centralised layout with form submission requiring all fields complete to log in as a user. Large icons are used to assist the user with use of the form, and a large login button is included.
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 40 26" src="https://github.com/elliotjonesdev/clearout/assets/119816371/6536f3be-71d8-48a6-b92d-be699e3f2c0b">
@@ -138,4 +137,20 @@ Mobile View
     * When the user logs out a success message displays and the user is redirected to the login page.
 <img width="1440" alt="Screenshot 2023-09-16 at 20 50 14" src="https://github.com/elliotjonesdev/clearout/assets/119816371/946b85bd-a95d-40cc-86ca-9b9ace3167cf">
 
+## Admin Features
+* #### Profile Page
+    * When the admin successfully logs in the profile page displays with a simple welcome message.
+<img width="1440" alt="Screenshot 2023-09-16 at 21 01 11" src="https://github.com/elliotjonesdev/clearout/assets/119816371/73edbc32-8202-4eef-bfb7-55eb9e3a75b2">
 
+* #### Navigation
+    * When admin is logged in an additional option of manage categories appears in the navigation
+<p align="center"><img width="514" alt="Screenshot 2023-09-16 at 21 01 20" src="https://github.com/elliotjonesdev/clearout/assets/119816371/2ced82f1-687d-4b9d-9f84-fddfee0225bb"></p>
+
+* #### Manage Categories
+    * The manage categories page allows the admin to create, edit and delete categories which are displayed as cards with dark grey background and contrascting light green edit and delete buttons.
+      
+<img width="1440" alt="Screenshot 2023-09-16 at 21 01 58" <img width="1440" alt="Screenshot 2023-09-16 at 21 01 36" src="https://github.com/elliotjonesdev/clearout/assets/119816371/a3724f1a-38ea-456b-92f8-b39269c68d93">
+
+* #### Add Category
+    * In add category view the admin has the option to add a new category, prompted by a form containing a folder icon and a large blue add category button to complete the task.
+<img width="1440" alt="Screenshot 2023-09-16 at 21 01 58" src="https://github.com/elliotjonesdev/clearout/assets/119816371/c2176bab-9bfa-4104-a07a-87b27385884b">
