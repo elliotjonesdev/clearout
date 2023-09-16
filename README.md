@@ -81,10 +81,12 @@ Mobile View
       
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 47 01" src="https://github.com/elliotjonesdev/clearout/assets/119816371/9c4efeed-5b32-4425-92c6-3715f9e9bf83"></p>
 
-* #### User Logged In
+* #### User Logged In Homepage
     * When the user is logged in the edit and delete buttons can be selected on each item card.
       
-<p align="center"></p>
+<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 20 04 40" src="https://github.com/elliotjonesdev/clearout/assets/119816371/df1a2d71-168f-4250-947b-9a4b8190470f">
+/p>
+ 
 * #### User Edit Item
   
 
