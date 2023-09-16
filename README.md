@@ -81,6 +81,13 @@ Mobile View
       
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 47 01" src="https://github.com/elliotjonesdev/clearout/assets/119816371/9c4efeed-5b32-4425-92c6-3715f9e9bf83"></p>
 
+* #### User Profile Page
+    * When the user successfully logs in the profile page diaplays with a simple welcome message.
+      
+<p align="center"></p>
+
+
+
 * #### User Logged In Homepage
     * When the user is logged in the edit and delete buttons can be selected on each item card.
       
@@ -88,9 +95,9 @@ Mobile View
 </p>
  
 * #### User Edit Item
-      * When the user selects edit option from the item card they can edit the item using the form
+    * When the user selects edit option from the item card they can edit the item using the form
       
-<p align="center">
+<p align="center"><img width="1439" alt="Screenshot 2023-09-16 at 20 08 39" src="https://github.com/elliotjonesdev/clearout/assets/119816371/5d7131ca-ca11-44eb-82db-201b384a83d2">
 </p>  
 
 
