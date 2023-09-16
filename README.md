@@ -103,7 +103,8 @@ Mobile View
     * The category field has a dropdown menu that the user can select from to help organise their listed items. If all fields are not completed a flash message prompts the user to complete further information.
  <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 20 34 37" src="https://github.com/elliotjonesdev/clearout/assets/119816371/b03217a6-c768-4892-8d0c-b2f9a77ae881">
 </p> 
-<p align="center">
+
+<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 20 40 01" src="https://github.com/elliotjonesdev/clearout/assets/119816371/5482426b-35b8-4f5a-b783-7af6844963e7">
 </p> 
     
 * #### Logged In Homepage
