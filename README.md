@@ -64,12 +64,12 @@ Mobile View
 
 ## Registration and Login Pages
 * #### Login Page
-    * The login page features a simple centralised layout with form submission requiring all fields complete to log in as a user. Large icons are used to assist the user with use of the form, and a large login button is included. The registration page contains a form with all fields required to enable submission. 
+    * The login page features a simple centralised layout with form submission requiring all fields complete to log in as a user. Large icons are used to assist the user with use of the form, and a large login button is included.
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 40 26" src="https://github.com/elliotjonesdev/clearout/assets/119816371/6536f3be-71d8-48a6-b92d-be699e3f2c0b">
 </p>
 
 * #### Login Error Message
-    * Users password is hashed for security. If the incorrect log in details are entered, then a flash message informs the user that the username and/or password details are incorrect
+    * The users password is hashed for security. If the incorrect log in details are entered, then a flash message informs the user that the username and/or password details are incorrect
     <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 51 41" src="https://github.com/elliotjonesdev/clearout/assets/119816371/8da6aa42-7967-4321-8e53-5ba0ddb68fc7"></p>  
     
 * #### Registration Page
@@ -79,6 +79,9 @@ Mobile View
 * #### Registration Error Message
     * A flash message appears to warn the user that the name already exists, each username must be unique.
       
-      <img width="1440" alt="Screenshot 2023-09-16 at 18 47 01" src="https://github.com/elliotjonesdev/clearout/assets/119816371/9c4efeed-5b32-4425-92c6-3715f9e9bf83">
+<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 47 01" src="https://github.com/elliotjonesdev/clearout/assets/119816371/9c4efeed-5b32-4425-92c6-3715f9e9bf83"></p>
 
+#### User View - Logged In
+    * The registration page contains a form with all fields required to enable submission. The users password is hashed for security.
+<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 40 19" src="https://github.com/elliotjonesdev/clearout/assets/119816371/bfdf0d70-da09-49b1-8072-7f8d17e89814"></p>
 
