@@ -85,10 +85,13 @@ Mobile View
     * When the user is logged in the edit and delete buttons can be selected on each item card.
       
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 20 04 40" src="https://github.com/elliotjonesdev/clearout/assets/119816371/df1a2d71-168f-4250-947b-9a4b8190470f">
-/p>
+</p>
  
 * #### User Edit Item
-  
+      * When the user selects edit option from the item card they can edit the item using the form
+      
+<p align="center">
+</p>  
 
 
 
