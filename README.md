@@ -149,7 +149,7 @@ Mobile View
 * #### Manage Categories
     * The manage categories page allows the admin to create, edit and delete categories which are displayed as cards with dark grey background and contrascting light green edit and delete buttons.
       
-<img width="1440" alt="Screenshot 2023-09-16 at 21 01 58" <img width="1440" alt="Screenshot 2023-09-16 at 21 01 36" src="https://github.com/elliotjonesdev/clearout/assets/119816371/a3724f1a-38ea-456b-92f8-b39269c68d93">
+<img width="1440" alt="Screenshot 2023-09-16 at 21 01 36" src="https://github.com/elliotjonesdev/clearout/assets/119816371/834e1f50-c47e-4abc-82de-a827431739e4">
 
 * #### Add Category
     * In add category view the admin has the option to add a new category, prompted by a form containing a folder icon and a large blue add category button to complete the task.
