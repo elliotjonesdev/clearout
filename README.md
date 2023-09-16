@@ -81,14 +81,20 @@ Mobile View
       
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 47 01" src="https://github.com/elliotjonesdev/clearout/assets/119816371/9c4efeed-5b32-4425-92c6-3715f9e9bf83"></p>
 
-* #### User Profile Page
-    * When the user successfully logs in the profile page diaplays with a simple welcome message.
+* #### Profile Page
+    * When the user successfully logs in the profile page displays with a simple welcome message.
       
-<p align="center"></p>
+<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 20 16 02" src="https://github.com/elliotjonesdev/clearout/assets/119816371/2afd4906-c5ba-4c50-9f85-75e0a5d45f01">
+</p>
+
+* #### New Item Page
+    * The new item page contains a form that enables the user to create a new item.
+      
+<p align="center">
+</p>
 
 
-
-* #### User Logged In Homepage
+* #### Logged In Homepage
     * When the user is logged in the edit and delete buttons can be selected on each item card.
       
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 20 04 40" src="https://github.com/elliotjonesdev/clearout/assets/119816371/df1a2d71-168f-4250-947b-9a4b8190470f">
