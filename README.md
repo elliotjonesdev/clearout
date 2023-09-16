@@ -90,7 +90,7 @@ Mobile View
 * #### New Item Page
     * The new item page contains a form that enables the user to create a new item.
       
-<p align="center">
+<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 20 18 53" src="https://github.com/elliotjonesdev/clearout/assets/119816371/61f39897-00e0-46af-8397-9ebdd4852451">
 </p>
 
 
