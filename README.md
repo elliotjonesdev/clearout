@@ -69,7 +69,7 @@ Mobile View
 </p>
 
 * #### Login Error Message
-    * The users password is hashed for security. If the incorrect log in details are entered, then a flash message informs the user that the username and/or password details are incorrect
+    * The users password is hashed for security. If the incorrect log in details are entered, then a flash message informs the user that the username and/or password details are incorrect.
     <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 51 41" src="https://github.com/elliotjonesdev/clearout/assets/119816371/8da6aa42-7967-4321-8e53-5ba0ddb68fc7"></p>  
     
 * #### Registration Page
@@ -81,7 +81,12 @@ Mobile View
       
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 47 01" src="https://github.com/elliotjonesdev/clearout/assets/119816371/9c4efeed-5b32-4425-92c6-3715f9e9bf83"></p>
 
-#### User View - Logged In
-    * The registration page contains a form with all fields required to enable submission. The users password is hashed for security.
-<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 40 19" src="https://github.com/elliotjonesdev/clearout/assets/119816371/bfdf0d70-da09-49b1-8072-7f8d17e89814"></p>
+* #### User Logged In
+    * When the user is logged in the edit and delete buttons can be selected on each item card.
+      
+<p align="center"></p>
+* #### User Edit Item
+  
+
+
 
