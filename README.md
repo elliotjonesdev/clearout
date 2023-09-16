@@ -99,9 +99,9 @@ Mobile View
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 20 22 37" src="https://github.com/elliotjonesdev/clearout/assets/119816371/f4fe9b3a-77ac-433b-8807-1c91da84604e">
 </p>
 
-* #### New Item Page
+* #### New Item Category
     * The category field has a dropdown menu that the user can select from to help organise their listed items.
- <p align="center">
+ <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 20 34 37" src="https://github.com/elliotjonesdev/clearout/assets/119816371/b03217a6-c768-4892-8d0c-b2f9a77ae881">
 </p>      
     
 * #### Logged In Homepage
