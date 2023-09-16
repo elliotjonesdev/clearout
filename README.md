@@ -126,5 +126,16 @@ Mobile View
 <p align="center"><img width="1439" alt="Screenshot 2023-09-16 at 20 08 39" src="https://github.com/elliotjonesdev/clearout/assets/119816371/5d7131ca-ca11-44eb-82db-201b384a83d2">
 </p>  
 
+* #### Edit Success Message
+    * When the edit item form is successfully updated and submitted a success message displays and the user is redirected to the edit item page.
+<img width="1440" alt="Screenshot 2023-09-16 at 20 49 24" src="https://github.com/elliotjonesdev/clearout/assets/119816371/f833add3-c917-4a83-827a-5b500d5f4081">
+
+* #### Delete Success Message
+    * When the delete item button is selected a success message displays and the user is redirected to the homepage.
+<img width="1440" alt="Screenshot 2023-09-16 at 20 49 51" src="https://github.com/elliotjonesdev/clearout/assets/119816371/7d7a1cc7-5644-47c6-8d6e-add57b9c06d9">
+
+* #### Logout Success Message
+    * When the user logs out a success message displays and the user is redirected to the login page.
+<img width="1440" alt="Screenshot 2023-09-16 at 20 50 14" src="https://github.com/elliotjonesdev/clearout/assets/119816371/946b85bd-a95d-40cc-86ca-9b9ace3167cf">
 
 
