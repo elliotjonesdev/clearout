@@ -111,7 +111,7 @@ Mobile View
 
 * #### Item Success Message
     * When the new item form is successfully completed and submitted a success message displays and the user is redirected to the homepage containing all items.
-<p align="center">
+<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 20 45 18" src="https://github.com/elliotjonesdev/clearout/assets/119816371/79e1f328-a1a9-4f87-bef4-fb339d900d03">
 </p> 
 
 * #### Logged In Homepage
