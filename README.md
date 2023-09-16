@@ -52,11 +52,14 @@ Mobile View
 
 ### Home Page
 * #### Search Bar
-    * The search bar enables the user to quickly and easily find listed items using keywords. This has a simple and intuitive layout and includes search and reset buttons with contrasting colors to help the user find items with ease and speed.
+    * The search bar enables the user to quickly and easily find listed items using keywords. This has a simple and intuitive layout and includes search and reset buttons with contrasting colors to help the user find items with ease and speed. The magnifying glass helps to guide the user to the search bar with a visual magnifying glasss icon set to the same color as the main navigation area.
 <p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 17 55 27" src="https://github.com/elliotjonesdev/clearout/assets/119816371/d7aa33c9-7a02-4f77-9491-836406eb0757">
+</p>
+    * The search function enables the user to type a keyword to display any items listed that contain the keyword, as shown in the screenshot - items are removed from the homescreen leaving only relevant listings for the user to select from.
+<p align="center">
 </p>
 
 * #### Item Cards
     * The item cards are clearly presented to the user and contain an image of the item offered along with a brief description, location and item title. The lorry icon also displays to the user where delivery is available and the username appears at the bottom of the card to show which website member has listed the item. Information is centrally aligned to mirror the overall layout of the website for user friendly scrolling.
-<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 18 08 06" src="https://github.com/elliotjonesdev/clearout/assets/119816371/0f9d8e3c-408e-478d-89b5-5a9b1b703821">
+<p align="center"><img width="1419" alt="Screenshot 2023-09-16 at 18 16 43" src="https://github.com/elliotjonesdev/clearout/assets/119816371/389be586-42b2-4bee-a7d9-b6aaf029e4a5">
 </p>
