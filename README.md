@@ -53,4 +53,5 @@ Mobile View
 ### Home Page
 * #### Search Bar
     * The search bar enables the user to quickly and easily find listed items using keywords. This has a simple and intuitive layout and includes search and reset buttons with contrasting colors to help the user find items with ease and speed.
-<p align="center"></p>
+<p align="center"><img width="1440" alt="Screenshot 2023-09-16 at 17 55 27" src="https://github.com/elliotjonesdev/clearout/assets/119816371/d7aa33c9-7a02-4f77-9491-836406eb0757">
+</p>
