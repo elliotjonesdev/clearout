@@ -192,12 +192,14 @@ Mobile View
  <img width="1439" alt="Screenshot 2023-09-17 at 19 29 08" src="https://github.com/elliotjonesdev/clearout/assets/119816371/ea6c5402-2123-4344-9395-e35a69150a45">
 
 * #### Browser Compatibility
-    * Chrome
-  <img width="1440" alt="Screenshot 2023-09-17 at 20 17 15" src="https://github.com/elliotjonesdev/clearout/assets/119816371/899d4ccd-a675-49ad-9099-d03cc071d25e">
+Chrome
+<br>
+ <img width="1440" alt="Screenshot 2023-09-17 at 20 17 15" src="https://github.com/elliotjonesdev/clearout/assets/119816371/899d4ccd-a675-49ad-9099-d03cc071d25e">
 
 <br>
-    * Safari
-  <img width="1341" alt="Screenshot 2023-09-17 at 20 20 00" src="https://github.com/elliotjonesdev/clearout/assets/119816371/e34c1cdc-084a-4919-a9a1-fe7644c248a0">
+Safari
+<br>
+ <img width="1341" alt="Screenshot 2023-09-17 at 20 20 00" src="https://github.com/elliotjonesdev/clearout/assets/119816371/e34c1cdc-084a-4919-a9a1-fe7644c248a0">
 
 * #### Responsiveness
 iPhone 12 Pro
