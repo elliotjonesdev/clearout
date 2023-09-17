@@ -193,6 +193,10 @@ Mobile View
 
 * #### Browser Compatibility
       * Chrome
+  <img width="1440" alt="Screenshot 2023-09-17 at 20 17 15" src="https://github.com/elliotjonesdev/clearout/assets/119816371/899d4ccd-a675-49ad-9099-d03cc071d25e">
+
+      * Safari
+  
   
 
   
