@@ -189,7 +189,7 @@ Mobile View
 
 * #### Lighthouse Analysis
 
-  
+ <img width="1439" alt="Screenshot 2023-09-17 at 19 29 08" src="https://github.com/elliotjonesdev/clearout/assets/119816371/ea6c5402-2123-4344-9395-e35a69150a45">
 
 * #### Browser Compatibility
 
