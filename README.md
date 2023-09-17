@@ -198,6 +198,8 @@ Mobile View
 <br>
     * Safari
   <img width="1341" alt="Screenshot 2023-09-17 at 20 20 00" src="https://github.com/elliotjonesdev/clearout/assets/119816371/e34c1cdc-084a-4919-a9a1-fe7644c248a0">
+
+* #### Responsiveness
   
   
 
