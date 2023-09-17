@@ -207,6 +207,10 @@ The following steps need to be taken to deploy the app.
   PYTHON - CI Python Linter
   - No issues found
   <img width="1438" alt="Screenshot 2023-09-17 at 10 14 37" src="https://github.com/elliotjonesdev/clearout/assets/119816371/133b4164-3e43-472f-b0b1-367e3b831c97">
+
+  HTML - W3. Org Validator
+  - No Issues Found
+  <img width="1440" alt="Screenshot 2023-09-17 at 21 34 36" src="https://github.com/elliotjonesdev/clearout/assets/119816371/6567d783-e8e1-4578-ae1a-0bc80819dd9c">
   
   CSS - W3C Jigsaw Validator
   - No issues found
