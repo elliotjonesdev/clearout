@@ -176,16 +176,23 @@ Mobile View
 ## Testing
 * #### Code Validation
   PYTHON - CI Python Linter
-  No issues found
+  - No issues found
   <img width="1438" alt="Screenshot 2023-09-17 at 10 14 37" src="https://github.com/elliotjonesdev/clearout/assets/119816371/133b4164-3e43-472f-b0b1-367e3b831c97">
   
   CSS - W3C Jigsaw Validator
-  No issues found
+  - No issues found
   <img width="1440" alt="Screenshot 2023-09-17 at 17 29 28" src="https://github.com/elliotjonesdev/clearout/assets/119816371/f1b3d74e-4928-42fc-a446-b8a45930c50f">
 
   JAVASCRIPT - JSHINT
-  No issues found
+  - No issues found
   <img width="1440" alt="Screenshot 2023-09-17 at 19 22 45" src="https://github.com/elliotjonesdev/clearout/assets/119816371/350ce1d6-2bde-4dc1-8025-f4eac7626ec3">
+
+* #### Lighthouse Analysis
+
+  
+
+* #### Browser Compatibility
+
   
   
 
