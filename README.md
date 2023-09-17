@@ -172,6 +172,35 @@ Mobile View
 * #### Creating A Gitpod Workspace
 
 * #### Creating An Application With Heroku
+The following steps need to be taken to deploy the app.
+
+* Requirements to run the app - "pip3 freeze --local > requirements.txt".
+* use the echo command: "echo web: python app.py > Procfile".
+* Go to Heroku.com, and once you're logged in 
+* Click 'Create a New App'.
+* Create the application name, all lowercase with dash or minus instead of spaces
+* Next, select the region closest to you then click 'Create App'.
+* To set up automatic deployments make sure the  correct GitHub profile is displayed, then add your repository name, then click 'Search'.
+* Once it finds the repo, click to connect to this app.
+* Click on the 'Settings' tab for the app, and then click on 'Reveal Config Vars', 
+* Input the variables, do not to include any "quotes" for the key, or the value -
+* IP, with the value of 0.0.0.0.
+* PORT, which is 5000.
+* SECRET_KEY, copy from the env.py file, then paste it into Heroku.
+* MONGO_URI , leave blank
+* MONGO_DBNAME, name of the database
+* Go back to the 'Deploy' tab
+* In the terminal, typed'git status' just to confirm pending changes
+* Add the requirements file to the staging area using command: "git add requirements.txt".
+* Commit the file: "git commit -m "Add requirements.txt".
+* Add the Procfile using: "git add Procfile".
+* Commit that file as well using: "git commit -m "Add Procfile".
+* Use "git push" to send the files to GitHub.
+* Go to Heroku and'Enable Automatic Deployment', 
+* Click 'Deploy Branch'.
+* Click "View" to launch the app.
+* Push changes to the GitHub repository.
+
 
 ## Testing
 * #### Code Validation
@@ -213,7 +242,9 @@ Surface Pro 7
 Macbook Pro
 <br>
 <p align="center"><img width="1440" alt="Screenshot 2023-09-17 at 20 30 56" src="https://github.com/elliotjonesdev/clearout/assets/119816371/38e6a111-a2d3-4f40-8216-a8a772438a5a"></p>  
-  
+
+## Credits
+
 
   
   
