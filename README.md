@@ -10,15 +10,15 @@ CLEAROUT is community based recycling appliction, with sustainability at the hea
 
 #### User Goals 
 Lister
-* To list and sell multiple used or unwanted items quickly and easily
-* To monetise unwanted goods
+* To list multiple used or unwanted items quickly and easily
+* To recycle items rather than throw in to landfill
 * Interact with the application intuitively
-* To receive contact from potential buyers through the app
-* To manage the for sale inventory easily
+* To receive contact from potential users through the app
+* To manage the inventory easily
 
 Browser/user
-* To see items listed from sellers in a simple format
-* To buy from members in the local community
+* To see items listed from other users in a simple format
+* To collect from members in the local community
 * To contact members in the local community about items
 * To have a positive user experience
 
