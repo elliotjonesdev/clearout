@@ -163,6 +163,7 @@ Mobile View
 * #### Error Handling
 
 * #### User Stories
+<p align="center"><img width="979" alt="Screenshot 2023-09-18 at 19 59 16" src="https://github.com/elliotjonesdev/clearout/assets/119816371/6316916d-e14b-40b3-85ae-13dfa81fb499"></p>
 
 * #### Features Left To Implement
   
