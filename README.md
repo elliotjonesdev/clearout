@@ -170,6 +170,13 @@ Mobile View
 
 ## Deployment
 * #### Creating A Gitpod Workspace
+The following steps can be used to deploy to Gihub Pages
+* On Github navigate to the site repository
+* Under repository click settings
+* In the code and automation section click pages
+* Under build and deployment, under source click deploy from a branch
+* Under build and deployment select main branch and save
+* Once the main branch has been selected and saved the page will display an active lingk to indicate the successful deployment.
 
 * #### Creating An Application With Heroku
 The following steps need to be taken to deploy the app.
