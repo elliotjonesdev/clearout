@@ -252,8 +252,9 @@ Macbook Pro
 <p align="center"><img width="1440" alt="Screenshot 2023-09-17 at 20 30 56" src="https://github.com/elliotjonesdev/clearout/assets/119816371/38e6a111-a2d3-4f40-8216-a8a772438a5a"></p>  
 
 ## Credits
-
-
+### Media
+ * Icons for the forms are from [FontAwesome](https://fontawesome.com/)
+ * The responsive framework is from [Materialize](https://materializecss.com/)
   
   
 
