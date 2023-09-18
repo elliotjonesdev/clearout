@@ -255,8 +255,8 @@ Macbook Pro
 ### Media
  * Icons for the forms are from [FontAwesome](https://fontawesome.com/)
  * The responsive framework is from [Materialize](https://materializecss.com/)
-  
-  
+ * Images are taken from
+   [GardenToolBox](https://www.gardentoolbox.co.uk)   [Wikimedia.org](https://upload.wikimedia.org)   [Media.gq-magazine](https://media.gq-magazine.co.uk)
 
 
 
