@@ -121,6 +121,7 @@ def logout():
 def add_item():
     """Route to add new items."""
     if request.method == "POST":
+        # Check if the request method is POST (form submission)
         is_sold = "on" if request.form.get("is_sold") else "off"
         item = {
             "category_name": request.form.get("category_name"),
@@ -131,6 +132,7 @@ def add_item():
             "item_location": request.form.get("item_location"),
             "created_by": session["user"]
         }
+        # Insert the new item into the database
         mongo.db.tasks.insert_one(item)
         flash("Item Successfully Added")
         return redirect(url_for("get_item"))
@@ -143,6 +145,7 @@ def add_item():
 def edit_item(item_id):
     """Route to edit existing items."""
     if request.method == "POST":
+        # Check if the request method is POST (form submission)
         is_sold = "on" if request.form.get("is_sold") else "off"
         submit = {
             "category_name": request.form.get("category_name"),
@@ -153,6 +156,7 @@ def edit_item(item_id):
             "item_location": request.form.get("item_location"),
             "created_by": session["user"]
         }
+        # Update the existing item in the database
         mongo.db.tasks.update_one({"_id": ObjectId(item_id)}, {"$set": submit})
         flash("Item Successfully Updated")
 
@@ -164,6 +168,7 @@ def edit_item(item_id):
 @app.route("/delete_item/<item_id>")
 def delete_item(item_id):
     """Route to delete items."""
+    # Delete the specified item from the database
     mongo.db.tasks.delete_one({"_id": ObjectId(item_id)})
     flash("Item Successfully Deleted")
     return redirect(url_for("get_item"))
@@ -172,6 +177,7 @@ def delete_item(item_id):
 @app.route("/get_categories")
 def get_categories():
     """Route to display a list of categories."""
+    # Retrieve and display a list of categories from the database
     categories = list(mongo.db.categories.find().sort("category_name", 1))
     return render_template("categories.html", categories=categories)
 
@@ -180,9 +186,11 @@ def get_categories():
 def add_category():
     """Route to add new categories."""
     if request.method == "POST":
+        # Check if the request method is POST (form submission)
         category = {
             "category_name": request.form.get("category_name")
         }
+        # Insert the new category into the database
         mongo.db.categories.insert_one(category)
         flash("New Category Added")
         return redirect(url_for("get_categories"))
@@ -194,6 +202,7 @@ def add_category():
 def edit_category(category_id):
     """Route to edit existing categories."""
     if request.method == "POST":
+        # Check if the request method is POST (form submission)
         submit = {
             "category_name": request.form.get("category_name")
         }
@@ -208,6 +217,7 @@ def edit_category(category_id):
 @app.route("/delete_category/<category_id>")
 def delete_category(category_id):
     """Route to delete categories."""
+    # Delete the specified category from the database
     mongo.db.categories.delete_one({"_id": ObjectId(category_id)})
     flash("Category Successfully Deleted")
     return redirect(url_for("get_categories"))
@@ -216,4 +226,4 @@ def delete_category(category_id):
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
-            debug=True)
+            debug=False)

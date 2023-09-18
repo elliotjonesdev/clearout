@@ -13,14 +13,18 @@
 
 <div class="row">
     {% for category in categories %}
+    <!-- Loop through the 'categories' data and generate a card for each category -->
     <div class="col s12 m3">
         <div class="card 757575 grey darken-1 text-shadow center-align">
             <div class="card-content white-text">
+                <!-- Display the category name -->
                 <span class="card-title">{{ category.category_name }}</span>
             </div>
             <div class="card-action">
+                <!-- Generate an 'Edit' button with a link to edit the category -->
                 <a href="{{ url_for('edit_category', category_id=category._id) }}" class="btn green accent-4"
                     class="btn green accent-4">Edit</a>
+                <!-- Generate a 'Delete' button with a link to delete the category -->
                 <a href="{{ url_for('delete_category', category_id=category._id) }}" class="btn green accent-4"
                     class="btn green accent-4" class="btn light-blue lighten-1">Delete</a>
             </div>
